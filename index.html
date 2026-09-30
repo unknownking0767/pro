@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>For Amrin 🌼</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600&family=Parisienne&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main id="app">
+
+    <!-- =========================
+         SCENE 01 — OPENING
+         ========================= -->
+
+    <section class="scene active" id="scene1">
+
+      <div class="floating-symbols">
+        <span>✦</span>
+        <span>✧</span>
+        <span>·</span>
+        <span>✦</span>
+        <span>·</span>
+        <span>✧</span>
+      </div>
+
+      <div class="content">
+
+        <p class="eyebrow">
+          A little something...
+        </p>
+
+        <h1>
+          Made just<br>
+          <em>for you.</em>
+        </h1>
+
+        <p class="intro-text">
+          I know it's just a birthday,<br>
+          but I wanted to make it a little different.
+        </p>
+
+        <button class="scene-button" data-next="2">
+          Let's begin ✨
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCENE 02 — GIFT
+         ========================= -->
+
+    <section class="scene" id="scene2">
+
+      <div class="content">
+
+        <p class="eyebrow">
+          Before anything else...
+        </p>
+
+        <h2>
+          There's a little<br>
+          <em>something</em> here.
+        </h2>
+
+        <div class="gift" id="gift">
+
+          <div class="bow">
+            🎀
+          </div>
+
+          <div class="gift-lid"></div>
+
+          <div class="gift-body">
+            <div class="ribbon-v"></div>
+            <div class="ribbon-h"></div>
+          </div>
+
+        </div>
+
+        <p class="tap-hint" id="giftHint">
+          Tap the gift 🎁
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCENE 03 — BIRTHDAY
+         ========================= -->
+
+    <section class="scene" id="scene3">
+
+      <div class="content birthday-content">
+
+        <div class="mini-stars">
+          ✦　✧　✦
+        </div>
+
+        <p class="eyebrow">
+          And finally...
+        </p>
+
+        <h1 class="birthday-title">
+          Happy Birthday,<br>
+          <em>Amrin.</em>
+        </h1>
+
+        <div class="cake-area">
+
+          <div class="cake">
+            <div class="flame" id="flame"></div>
+            <div class="candle"></div>
+
+            <div class="cake-top"></div>
+            <div class="cake-middle"></div>
+            <div class="cake-bottom"></div>
+
+          </div>
+
+        </div>
+
+        <p class="wish-text" id="wishText">
+          Make a wish... 🕯️
+        </p>
+
+        <button class="scene-button hidden-button" id="wishButton">
+          I made my wish ✨
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCENE 04 — LETTER
+         ========================= -->
+
+    <section class="scene letter-scene" id="scene4">
+
+      <div class="letter-wrapper">
+
+        <div class="letter-card">
+
+          <div class="letter-heading">
+            <span>For you,</span>
+            <strong>Amrin 🌼</strong>
+          </div>
+
+          <div class="letter-body" id="letterBody"></div>
+
+          <button
+            class="next-letter-button"
+            id="shayariButton"
+          >
+            There's one more thing... 🥀
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCENE 05 — SHAYARI
+         ========================= -->
+
+    <section class="scene shayari-scene" id="scene5">
+
+      <div class="shayari-container">
+
+        <p class="eyebrow">
+          A few words I wrote for you
+        </p>
+
+        <div class="shayari" id="shayari"></div>
+
+        <button
+          class="scene-button hidden-button"
+          id="endingButton"
+        >
+          One last thing 🌼
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SCENE 06 — ENDING
+         ========================= -->
+
+    <section class="scene" id="scene6">
+
+      <div class="content ending-content">
+
+        <div class="flower">🌼</div>
+
+        <h2>
+          Stay happy.<br>
+          <em>Always.</em>
+        </h2>
+
+        <p>
+          Some friendships don't need<br>
+          a reason to be special.
+        </p>
+
+        <div class="ending-line"></div>
+
+        <small>
+          Happy Birthday, Amrin. 🤍
+        </small>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
